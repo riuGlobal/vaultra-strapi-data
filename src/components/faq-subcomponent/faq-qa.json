@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_faq_subcomponent_faq_qas",
+  "info": {
+    "displayName": "faqQA",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "text"
+    },
+    "answer": {
+      "type": "richtext"
+    }
+  }
+}

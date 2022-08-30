@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_trivia_sub_component_bullet_points",
+  "info": {
+    "displayName": "bulletPoint",
+    "icon": "bullseye"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    }
+  }
+}

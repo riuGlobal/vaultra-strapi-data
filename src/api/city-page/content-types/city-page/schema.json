@@ -54,6 +54,12 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.map-widget"
+    },
+    "faqSection": {
+      "displayName": "FaqSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.faq-section"
     }
   }
 }

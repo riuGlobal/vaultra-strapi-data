@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_shared_faq_sections",
+  "info": {
+    "displayName": "FaqSection",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "faqQAs": {
+      "displayName": "faqQA",
+      "type": "component",
+      "repeatable": true,
+      "component": "faq-subcomponent.faq-qa"
+    },
+    "faqTitle": {
+      "type": "string"
+    }
+  }
+}

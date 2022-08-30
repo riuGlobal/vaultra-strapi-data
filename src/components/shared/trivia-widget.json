@@ -16,7 +16,10 @@
       ]
     },
     "triviaPoints": {
-      "type": "json"
+      "displayName": "bulletPoint",
+      "type": "component",
+      "repeatable": true,
+      "component": "trivia-sub-component.bullet-point"
     }
   }
 }

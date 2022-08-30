@@ -14,7 +14,9 @@
       "component": "map-sub-component.initial-center"
     },
     "serviceAreaPolygon": {
-      "type": "json"
+      "type": "component",
+      "repeatable": true,
+      "component": "map-sub-component.initial-center"
     }
   }
 }
