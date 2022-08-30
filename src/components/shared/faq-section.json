@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "faqQAs": {
+    "faqs": {
       "displayName": "faqQA",
       "type": "component",
       "repeatable": true,
