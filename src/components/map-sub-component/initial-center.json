@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_map_sub_component_initial_centers",
+  "info": {
+    "displayName": "initialCenter",
+    "icon": "map-marker",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "lat": {
+      "type": "decimal"
+    },
+    "lng": {
+      "type": "decimal"
+    }
+  }
+}

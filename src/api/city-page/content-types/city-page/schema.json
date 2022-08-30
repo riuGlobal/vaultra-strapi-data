@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "city_pages",
+  "info": {
+    "singularName": "city-page",
+    "pluralName": "city-pages",
+    "displayName": "CityPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cityName": {
+      "type": "string",
+      "required": true
+    },
+    "province": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "seoContent": {
+      "type": "richtext"
+    },
+    "awards": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "charities": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "triviaSection": {
+      "displayName": "triviaWidget",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.trivia-widget"
+    },
+    "mapSection": {
+      "displayName": "mapWidget",
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.map-widget"
+    }
+  }
+}

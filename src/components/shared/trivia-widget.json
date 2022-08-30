@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_trivia_widgets",
+  "info": {
+    "displayName": "triviaWidget",
+    "icon": "file",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "triviaImageUrl": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
