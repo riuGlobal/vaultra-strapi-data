@@ -1,0 +1,65 @@
+{
+  "collectionName": "components_shared_services",
+  "info": {
+    "displayName": "service",
+    "icon": "warehouse",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email"
+    },
+    "rating": {
+      "type": "integer",
+      "max": 5,
+      "min": 0,
+      "default": 5
+    },
+    "numberOfReviews": {
+      "type": "integer"
+    },
+    "targetRelativeUrlPath": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "cardImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "SELF_STORAGE",
+        "DOOR_TO_DOOR",
+        "DOCUMENT_STORAGE",
+        "BIN_RENTAL"
+      ]
+    },
+    "objectFit": {
+      "type": "enumeration",
+      "enum": [
+        "FILL",
+        "CONTAIN",
+        "COVER",
+        "SCALE_DOWN",
+        "NONE"
+      ]
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}
