@@ -17,6 +17,9 @@
       "type": "component",
       "repeatable": true,
       "component": "map-sub-component.initial-center"
+    },
+    "zoom": {
+      "type": "decimal"
     }
   }
 }

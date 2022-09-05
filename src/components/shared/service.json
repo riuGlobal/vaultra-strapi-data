@@ -15,7 +15,7 @@
       "type": "email"
     },
     "rating": {
-      "type": "integer",
+      "type": "decimal",
       "max": 5,
       "min": 0,
       "default": 5
